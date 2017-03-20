@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Criselle Mae Santos Portfolio </title>
+    <link rel="icon" type="image/png" href="images/favicon32.png">
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <link href="css/main.css" rel="stylesheet" type="text/css" /> </head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    function onLoad() {
+        var $navButton = $('#nav-button');
+        var $navMenu = $('#nav-menu');
+        $navButton.on('click', function () {
+            $navButton.toggleClass('close');
+            $navMenu.toggleClass('show');
+        });
+    }
+</script>
+
+<body onload="onLoad()">
+    <header class="clearFix">
+        <div class="header-contain">
+            <a href="../index.html" class="aLink"> <span class="logo"></span> </a>
+        </div>
+        <div class="header-contain home-header-contain">
+            <div class="nav-trigger">
+                <a id="nav-button" href="#" class=""> <span>open nav</span></a>
+            </div>
+            <nav id="nav-menu" class="menu">
+                <ul>
+                    <li><a href="index.html" class="nav-link">About</a></li>
+                    <li><a href="pages/works.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="mailto:santos.criselle@gmail.com" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="band">
+        <div class="contain">
+            <div class="columns">
+                <div class="col-1 about">
+                    <header>
+                        <h1>Hello there!</h1>
+                        <p>My name is <strong>Criselle</strong>, a tireless seeker of knowledge and a creative innovator living in San Diego, California. Every day, I try to discover new ways of development and new ways to improve my skills because I love design and technology. <strong>I specialize in branding and identity, graphic design, video editing and animation, user interface design, and web design.</strong> </p>
+                        <p class="secParagraph">Feel free to take a look at my work and reach out. I look forward to speaking with you!</p>
+                    </header>
+                </div>
+                <div class="col-2 myPic">
+                    <header>
+                        <h1><img src="images/me.jpg" alt="girl image" class="myPic" oncontextmenu="return false;" /></h1> </header>
+                </div>
+                <div class="col-1">
+                    <header>
+                        <h1>Contact</h1> </header>
+                    <ul>
+                        <li><a href="mailto:santos.criselle@gmail.com" class="email">santos.criselle@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-1">
+                    <header>
+                        <h1>Skills</h1> </header>
+                    <ul>
+                        <li>Adobe Creative Suite</li>
+                        <li>Garage Band</li>
+                        <li>UX/UI</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contain">
+            <p>&copy; Copyright 2017 by Criselle Mae Santos. Feel free to contact me at <a href="mailto:santos.criselle@gmail.com" class="email">santos.criselle@gmail.com</a>.</p>
+            <div class="social">
+            <ul>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/santoscriselle/" target="_blank">linkedin</a></li>
+            <li class="instagram"><a href="https://www.instagram.com/xcelaem/" target="_blank">instagram</a></li>
+            <li class="behance"><a href="https://www.behance.net/santoscriselle" target="_blank">behance</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

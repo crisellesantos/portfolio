@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Criselle Mae Santos Portfolio - Branding </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="icon" type="image/png" href="../images/favicon32.png" />
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <link href="../css/main.css" rel="stylesheet" type="text/css" /> </head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    function onLoad() {
+        var $navButton = $('#nav-button');
+        var $navMenu = $('#nav-menu');
+        $navButton.on('click', function () {
+            $navButton.toggleClass('close');
+            $navMenu.toggleClass('show');
+        });
+    }
+</script>
+
+<body onload="onLoad()">
+    <header class="clearFix">
+        <div class="header-contain">
+            <a href="../index.html" class="aLink"> <span class="logo"></span> </a>
+        </div>
+        <div class="header-contain home-header-contain">
+            <div class="nav-trigger">
+                <a id="nav-button" href="#" class=""> <span>open nav</span></a>
+            </div>
+            <nav id="nav-menu" class="menu">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">About</a></li>
+                    <li><a href="works.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="mailto:santos.criselle@gmail.com" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="band">
+        <div class="contain">
+            <div class="columns">
+                <div class="col-1">
+                    <header>
+                        <h1>Branding</h1>
+                        <p>This started as a vector-based logo design project. The logo was created in Illustrator. I re-used the logo to create a promotional leave behind and a logo video teaser for branding. </p>
+                    </header>
+                </div>
+                <div class="col-2">
+                    <header>
+                        <h1>Tools</h1> </header>
+                    <ul>
+                        <li>Illustrator</li>
+                        <li>InDesign</li>
+                        <li>After Effects</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="band">
+        <div class="contain">
+            <div class="image">
+                <figure><img src="../images/id5.png" alt="notepad" class="auto" oncontextmenu="return false;"></figure>
+            </div>
+            <div class="image">
+                <figure><img src="../images/id5_front.png" alt="notepad front" class="auto" oncontextmenu="return false;"><figcaption>The logo from the notepad peeks through the die cut logo from the cover.</figcaption></figure>
+            </div>
+            <div class="image">
+                <figure><img src="../images/ai5_logo_with_grid.jpg" alt="logo" class="auto" oncontextmenu="return false;"><figcaption>Logo created using Illustrator.</figcaption></figure>
+            </div>
+            <div class="vid auto">
+                <video poster="../images/ai5_logo.jpg" controls>
+                    <source src="../videos/ae5.mp4" type="video/mp4">
+                    <source src="../videos/ae5.webm" type="video/webm">
+                    <source src="../videos/ae5.ogv" type="video/ogv"> Your browser does not support the video tag. </video><figcaption>This video is a logo teaser. It uses only black and negative space to show the logo’s versatility and function even only in gray scale. </figcaption>
+            </div>
+        </div>
+    </section>
+    <section class="band clearFix">
+        <div class="contain bottomNav">
+            <div class="columns">
+                <div>
+                    <nav class="navEffect prev"> <a href="psa.html" data-hover="Previous">Previous</a> </nav>
+                </div>
+                <div>
+                    <nav class="navEffect next"><a href="mugCake.html" data-hover="Next">Next</a> </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contain">
+            <p>&copy; Copyright 2017 by Criselle Mae Santos. Feel free to contact me at <a href="mailto:santos.criselle@gmail.com" class="email">santos.criselle@gmail.com</a>.</p>
+            <div class="social">
+            <ul>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/santoscriselle/" target="_blank">linkedin</a></li>
+            <li class="instagram"><a href="https://www.instagram.com/xcelaem/" target="_blank">instagram</a></li>
+            <li class="behance"><a href="https://www.behance.net/santoscriselle" target="_blank">behance</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

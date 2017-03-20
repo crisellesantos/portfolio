@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title> Criselle Mae Santos Portfolio - Image Montage </title>
+    <link rel="icon" type="image/png" href="../images/favicon32.png" />
+    <!--[if lt IE 9]>
+        <script src="scripts/html5shiv.js"></script>
+    <![endif]-->
+    <link href="../css/main.css" rel="stylesheet" type="text/css" /> </head>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    function onLoad() {
+        var $navButton = $('#nav-button');
+        var $navMenu = $('#nav-menu');
+        $navButton.on('click', function () {
+            $navButton.toggleClass('close');
+            $navMenu.toggleClass('show');
+        });
+    }
+</script>
+
+<body onload="onLoad()">
+    <header class="clearFix">
+        <div class="header-contain">
+            <a href="../index.html" class="aLink"> <span class="logo"></span> </a>
+        </div>
+        <div class="header-contain home-header-contain">
+            <div class="nav-trigger">
+                <a id="nav-button" href="#" class=""> <span>open nav</span></a>
+            </div>
+            <nav id="nav-menu" class="menu">
+                <ul>
+                    <li><a href="../index.html" class="nav-link">About</a></li>
+                    <li><a href="works.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="mailto:santos.criselle@gmail.com" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="band push-down">
+        <div class="contain">
+            <div class="columns">
+                <div class="col-1">
+                    <header>
+                        <h1>Image Montage</h1>
+                        <p>"Each of us has a dream and every one of us has different ambitions, but no matter what that is, we all have a goal that we want to achieve." - this was my inspiration for this piece. To incorporate a collage digitally, I assembled multiple images to make this image montage. It was my very first project. </p>
+                    </header>
+                </div>
+                <div class="col-2">
+                    <header>
+                        <h1>Tool</h1> </header>
+                    <ul>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="band">
+        <div class="contain">
+            <div class="image">
+                <figure><img src="../images/ps1.jpg" alt="Image Montage" class="auto" oncontextmenu="return false;"></figure>
+            </div>
+            <div class="image">
+                <figure><img src="../images/ps1_3.jpg" alt="Image Montage" class="auto" oncontextmenu="return false;"><figcaption>Multiple pictures I used for the montage.</figcaption></figure>
+            </div>
+            <div class="image">
+                <figure><img src="../images/ps1_2.jpg" alt="playing card" class="auto" oncontextmenu="return false;"></figure>
+            </div>
+        </div>
+    </section>
+   <section class="band clearFix">
+        <div class="contain bottomNav">
+            <div class="columns">
+               <div>
+                    <nav class="navEffect prev"> <a href="bannerAd.html" data-hover="Previous">Previous</a> </nav>
+                </div>
+                <div>
+                    <nav class="navEffect next"><a href="magazine.html" data-hover="Next">Next</a> </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contain">
+            <p>&copy; Copyright 2017 by Criselle Mae Santos. Feel free to contact me at <a href="mailto:santos.criselle@gmail.com" class="email">santos.criselle@gmail.com</a>.</p>
+            <div class="social">
+            <ul>
+            <li class="linkedin"><a href="https://www.linkedin.com/in/santoscriselle/" target="_blank">linkedin</a></li>
+            <li class="instagram"><a href="https://www.instagram.com/xcelaem/" target="_blank">instagram</a></li>
+            <li class="behance"><a href="https://www.behance.net/santoscriselle" target="_blank">behance</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
