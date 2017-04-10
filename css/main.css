@@ -458,6 +458,9 @@ ul.panels {
 .contain p:last-child {
     margin-bottom: 0;
 }
+.columns .col-1 .secPar {
+            margin-top: 30px;
+        }
 
 .columns ul {
     list-style-type: none;
@@ -824,6 +827,10 @@ footer p {
         .columns .about {
             padding-right: 0;
         }
+        .columns .contact {
+            padding-top: 50px;
+        }
+        
         .columns .col-2 {
             width: 35%;
             float: right;
